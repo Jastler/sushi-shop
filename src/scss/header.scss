@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-weight: bold;
+  color: white;
+
+  padding: 10px;
+
+  background-color: #0072bc;
+  
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    max-width: 50px;
+    margin-right: 5px;
+  }
+
+  &__button {
+    background-color: #f26522;
+    padding: 10px;
+
+    &:hover {
+      background-color: #c85823;
+    }
+  }
+}
+
+

@@ -1,0 +1,76 @@
+.slider {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 15px;
+
+  &__slide {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    text-align: center;
+  }
+
+  &__img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    border: none;
+    box-shadow: none;
+  }
+
+  &__button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+    &_next {
+      right: -30px;
+      border-radius: 3px 0 0 3px;
+    }
+
+    &_prev {
+      left: -30px;
+      border-radius: 3px 0 0 3px;
+    }
+
+    &:focus {
+      background-color: rgba(25, 24, 24, 0.8);
+    }
+  }
+
+  &__points {
+    text-align: center;
+  }
+
+  &__point {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+    &_active {
+      background-color: #aaa;
+    }
+  }
+}
+
+@keyframes fade {
+  from {
+  opacity: .4
+  }
+  to {
+  opacity: 1
+  }
+}

@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 10px;
+  max-width: 250px;
+  min-height: 400px;
+
+  text-align: center;
+  border: 2px solid #acacac;
+  border-radius: 7px;
+
+  &__img {
+    max-width: 200px;
+  }
+
+  &__header {
+    font-size: 22px;
+    font-weight: bold;
+    color: #8e0000;
+  }
+
+  &__button {
+    font-weight: bold;
+    color: #444444;
+
+    &_green {
+      color: #06811a;
+    }
+  }
+}

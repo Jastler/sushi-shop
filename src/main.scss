@@ -1,0 +1,12 @@
+@import "../node_modules/reset-css-complete/reset.css";
+@import './scss/header.scss';
+@import './scss/about.scss';
+@import './scss/section.scss';
+@import './scss/products.scss';
+@import './scss/card.scss';
+@import './scss/promotions.scss';
+@import './scss/slider.scss';
+
+html {
+  font-family: 'PT Sans', sans-serif;
+}
