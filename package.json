@@ -1,5 +1,5 @@
 {
-  "name": "html-js_template",
+  "name": "sushi-shop",
   "version": "1.0.0",
   "description": "Default template for task",
   "main": "src/index.html",
@@ -16,7 +16,6 @@
     "url": "git+https://github.com/Jastler/HTML-JS_template.git"
   },
   "keywords": [
-    "template",
     "html",
     "css",
     "javascript",
