@@ -10,6 +10,8 @@
   &__cards {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -20,5 +22,29 @@
   &__img {
     text-align: center;
     max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+
+    &__header {
+      font-size: 24px;
+      align-self: flex-start;
+    }
+
+    &__cards {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__card {
+      margin-left: 20px;
+    }
+
+    &__img {
+      max-width: 420px;
+    }
   }
 }

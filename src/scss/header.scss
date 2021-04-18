@@ -2,13 +2,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   font-weight: bold;
   color: white;
-
+  max-width: 1440px;
   padding: 10px;
+  margin: 0 auto;
 
-  background-color: #0072bc;
+  &__bg {
+    background-color: #0072bc;
+  }
+
   
   &__left {
     display: flex;
@@ -26,6 +29,26 @@
 
     &:hover {
       background-color: #c85823;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+    padding: 20px;
+
+    &__img {
+      max-width: 70px;
+    }
+
+    &__text {
+      font-size: 24px;
+    }
+
+    &__button {
+      font-size: 20px;
+      padding: 10px 30px;
     }
   }
 }
