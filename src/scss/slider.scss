@@ -1,5 +1,5 @@
 .slider {
-  max-width: 90%;
+  max-width: 100%;
   position: relative;
   margin: auto;
   margin-bottom: 15px;
@@ -13,9 +13,6 @@
   &__img {
     object-fit: contain;
     width: 100%;
-    height: auto;
-    border: none;
-    box-shadow: none;
   }
 
   &__button {

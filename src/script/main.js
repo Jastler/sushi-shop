@@ -43,3 +43,7 @@ allImages.forEach((img) => (
     showSlides(slideIndex += 1);
   })
 ));
+
+const footer = document.querySelector('.footer__text');
+
+footer.append(`Copyright ${new Date().getFullYear()}`);
