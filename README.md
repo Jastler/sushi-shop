@@ -1,10 +1,18 @@
-[DEMO LINK](https://jastler.github.io/sushi-shop/)
-
 # Sushi-shop landing page
-Use BEM and SCSS(Mobile first)
 
-- Full HD 1920px
-- The design 1600px
-- Notebook 1280px
-- Tablet 1024
-- Mobile (> 320px)
+- [DEMO LINK](https://jastler.github.io/sushi-shop/)
+
+## Description
+
+Page was created using HTML5, SCSS, JS and BEM methodology, adaptive layout, mobile first
+
+## Local deployment
+
+### Dependencies
+* Node v12.16.3 and higher
+* NPM v6.14.4 and higher
+
+### Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
